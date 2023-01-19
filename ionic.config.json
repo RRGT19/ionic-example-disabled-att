@@ -1,0 +1,7 @@
+{
+  "name": "ionic-disabled-att-example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
