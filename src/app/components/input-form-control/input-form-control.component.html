@@ -1,0 +1,19 @@
+<div class="form-group">
+
+  <ion-text>
+    {{label}}
+  </ion-text>
+
+  <ion-item>
+
+    <ion-input [(ngModel)]="value"
+               type="text"
+               [disabled]="disabled"
+               [required]="required"
+               (ionBlur)="onTouched()"
+               (ionChange)="onChange($event.target.value)">
+    </ion-input>
+
+  </ion-item>
+
+</div>
