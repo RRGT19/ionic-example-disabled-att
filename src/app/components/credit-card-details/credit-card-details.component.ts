@@ -24,7 +24,7 @@ export class CreditCardDetailsComponent extends BaseGroupControlValueAccessor<an
     this.form = this.fb.group({
       creditCardName: [null],
       creditCardNumber: [null],
-      creditCardCVV: [{value: 'I should be disabled', disabled: true}], // <=== disabled is on
+      creditCardCVV: [{value: 'I am disabled, yeiii!', disabled: true}], // <=== disabled is on
       creditCardExpirationDate: [null],
     });
   }
