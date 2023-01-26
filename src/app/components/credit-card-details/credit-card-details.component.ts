@@ -22,7 +22,10 @@ export class CreditCardDetailsComponent extends BaseGroupControlValueAccessor<an
   ngOnInit(): void {
     // Notes. See src/global.scss for styles.
     this.form = this.fb.group({
-      name: [{value: 'This is not working, should be disabled', disabled: true}],
+      creditCardName: [null],
+      creditCardNumber: [null],
+      creditCardCVV: [{value: 'I should be disabled', disabled: true}], // <=== disabled is on
+      creditCardExpirationDate: [null],
     });
   }
 

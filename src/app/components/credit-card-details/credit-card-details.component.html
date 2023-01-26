@@ -1,7 +1,19 @@
 <div [formGroup]="form">
 
   <app-input-form-control label="Credit Card Name"
-                          formControlName="name">
+                          formControlName="creditCardName">
+  </app-input-form-control>
+
+  <app-input-form-control label="Credit Card Number"
+                          formControlName="creditCardNumber">
+  </app-input-form-control>
+
+  <app-input-form-control label="Credit Card CVV"
+                          formControlName="creditCardCVV">
+  </app-input-form-control>
+
+  <app-input-form-control label="Credit Card Expiration Date"
+                          formControlName="creditCardExpirationDate">
   </app-input-form-control>
 
 </div>
